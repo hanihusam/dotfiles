@@ -23,6 +23,12 @@
         "options": {
           "full_name": "font-fira-code"
         }
+      },
+      "gpg-suite": {
+        "version": "2020.2",
+        "options": {
+          "full_name": "gpg-suite"
+        }
       }
     }
   },
