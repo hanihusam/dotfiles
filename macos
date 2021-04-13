@@ -54,6 +54,8 @@ else
   gpg --full-generate-key
 fi
 echo "Pick a GPG key that you'd like to use"
-echo "Check this documentation for more detailed steps"
+echo "Then upload the public key to the remote repository"
 echo "https://docs.github.com/en/github/authenticating-to-github/generating-a-new-gpg-key"
+echo "And tell Git about your GPG key"
+echo "https://docs.github.com/en/github/authenticating-to-github/telling-git-about-your-signing-key"
 gpg --list-secret-keys --keyid-format LONG
