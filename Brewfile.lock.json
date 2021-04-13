@@ -2,10 +2,13 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "86b8c1921961c1123084e9ce9d4892fba4fbf506"
+        "revision": "12f6bcd98f221e949bb82a86183718d1dda701b2"
       },
       "homebrew/bundle": {
         "revision": "0df097ca87d3bcf762d0f8cbe30eed8c37c35786"
+      },
+      "homebrew/cask-fonts": {
+        "revision": "18934178b335c24ae06c02a55b062efa2b47a1a7"
       }
     },
     "cask": {
@@ -13,6 +16,12 @@
         "version": "1.55.2",
         "options": {
           "full_name": "visual-studio-code"
+        }
+      },
+      "font-fira-code": {
+        "version": "5.2",
+        "options": {
+          "full_name": "font-fira-code"
         }
       }
     }
@@ -22,7 +31,7 @@
       "big_sur": {
         "HOMEBREW_VERSION": "3.1.1",
         "HOMEBREW_PREFIX": "/opt/homebrew",
-        "Homebrew/homebrew-core": "b49c078affd6bad7f848cbee0a72d2fc24f24919",
+        "Homebrew/homebrew-core": "b8376f7fe58d6709ee2ef0d600478b58a7cd8eb3",
         "CLT": "12.4.0.0.1.1610135815",
         "Xcode": "12.0",
         "macOS": "11.2.3"
