@@ -45,3 +45,15 @@ else
   echo "SSH key for me@zainf.dev found!"
 fi
 echo "run 'pbcopy < ~/.ssh/id_ed25519.pub' and paste that into GitHub"
+
+echo "Checking for existing GPG keys"
+if [[ $(gpg --list-secret-keys --keyid-format LONG) ]]; then
+  echo "GPG keys found!"
+else
+  echo "No GPG keys found, please generate one"
+  gpg --full-generate-key
+fi
+echo "Pick a GPG key that you'd like to use"
+echo "Check this documentation for more detailed steps"
+echo "https://docs.github.com/en/github/authenticating-to-github/generating-a-new-gpg-key"
+gpg --list-secret-keys --keyid-format LONG
