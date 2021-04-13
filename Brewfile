@@ -5,6 +5,7 @@ tap 'homebrew/bundle'
 
 # Apps
 cask 'gpg-suite'
+cask 'hyper'
 cask 'visual-studio-code'
 
 # Fonts
