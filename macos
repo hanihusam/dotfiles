@@ -22,7 +22,6 @@ fi
 
 # Add Homebrew & oh-my-zsh PATH by installing zshrc
 ./install
-source $HOME/.zshrc
 
 # Update Homebrew recipes
 echo "Updating Homebrew recipes"
