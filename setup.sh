@@ -9,6 +9,9 @@ if [[ ! -d "$HOME/.oh-my-zsh" ]] ; then
   
   # Remove .zshrc file to replace it with our custom zshrc
   rm $HOME/.zshrc
+
+  # Install zsh-syntax-highlighting
+  git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 fi
 
 # Check for Homebrew and install if we don't have it
