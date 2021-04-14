@@ -81,6 +81,10 @@ if [ -f "$HOME/.secrets.zsh" ]; then
   source $HOME/.secrets.zsh
 fi
 
+# URL Shorteners
+# https://github.com/kentcdodds/netlify-shortener#bash
+kcovid() { node $HOME/Code/GitLab/kawalcovid19/kcov.id/node_modules/.bin/netlify-shortener "$1" "$2"; }
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
