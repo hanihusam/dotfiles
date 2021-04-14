@@ -16,8 +16,9 @@ if test ! $(which brew); then
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
 
-# Add Homebrew & oh-my-zsh PATH by installing zshrc
-./install
+# Add Homebrew & oh-my-zsh PATH by installing zshrc through dotfiles
+# Assuming that this dotfiles repository is cloned under ~/.dotfiles
+$HOME/.dotfiles/install
 
 # Update Homebrew recipes
 echo "Updating Homebrew recipes"
@@ -67,4 +68,4 @@ gpg --list-secret-keys --keyid-format LONG
 
 # Set macOS preferences
 # We will run this last because this will reload the shell
-source ./macos.sh
+./macos.sh
