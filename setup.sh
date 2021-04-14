@@ -74,3 +74,6 @@ gpg --list-secret-keys --keyid-format LONG
 # Set macOS preferences
 # We will run this last because this will reload the shell
 ./macos.sh
+
+# Call benchmark.zsh at the end of setup to assess the performance impact of the recent configuration
+./bin/benchmark.zsh
