@@ -17,8 +17,7 @@ if test ! $(which brew); then
 fi
 
 # Add Homebrew & oh-my-zsh PATH by installing zshrc through dotfiles
-# Assuming that this dotfiles repository is cloned under ~/.dotfiles
-$HOME/.dotfiles/install
+./install
 
 # Update Homebrew recipes
 echo "Updating Homebrew recipes"
