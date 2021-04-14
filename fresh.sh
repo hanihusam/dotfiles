@@ -28,9 +28,13 @@ echo "Installing Homebrew bundle defined in Brewfile"
 brew tap homebrew/bundle
 brew bundle
 
-# Install volta separately
+# Install Volta separately
 if test ! $(which volta); then
   curl https://get.volta.sh | bash
+  
+  # Install the latest version of NodeJS and Yarn using Volta
+  volta install node
+  volta install yarn
 fi
 
 echo "Checking whether SSH key for me@zainf.dev is already generated or not"
