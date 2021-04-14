@@ -12,4 +12,5 @@
     ~/.gitignore-global: git/gitignore-global
     ~/.hushlogin:
     ~/.hyper.js:
+    ~/.secrets.zsh:
     ~/.zshrc:
