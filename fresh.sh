@@ -65,6 +65,11 @@ echo "And tell Git about your GPG key"
 echo "https://docs.github.com/en/github/authenticating-to-github/telling-git-about-your-signing-key"
 gpg --list-secret-keys --keyid-format LONG
 
+# Export secret environment variables
+if [ -f "./secrets.zsh" ]; then
+  source ./secrets.zsh
+fi
+
 # Set macOS preferences
 # We will run this last because this will reload the shell
 source ./macos.sh
