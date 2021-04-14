@@ -2,7 +2,15 @@
 	name = Zain Fathoni
 	email = me@zainf.dev
 	signingkey = 67DDDCE82417961B
-[gpg]
-	program = gpg
 [commit]
-	gpgsign = true
+  gpgsign = true
+[gpg]
+  program = gpg
+[core]
+	excludesfile = /Users/nvuser/.gitignore-global
+[includeIf "gitdir:~/Code/ninjavan/"]
+	path = .gitconfig-ninjavan
+[includeIf "gitdir:~/Code/go/src/git.ninjavan.co/"]
+	path = .gitconfig-ninjavan
+[includeIf "gitdir:~/Code/GitHub/zainfathoni/"]
+	path = .gitconfig-zainfathoni

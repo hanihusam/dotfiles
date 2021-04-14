@@ -7,6 +7,9 @@
 
 - link:
     ~/.gitconfig: git/gitconfig
+    ~/.gitconfig-ninjavan: git/gitconfig-ninjavan
+    ~/.gitconfig-zainfathoni: git/gitconfig-zainfathoni
+    ~/.gitignore-global: git/gitignore-global
     ~/.hushlogin:
     ~/.hyper.js:
     ~/.zshrc:

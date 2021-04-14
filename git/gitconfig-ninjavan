@@ -1,0 +1,4 @@
+[user]
+	email = zain.fathoni@ninjavan.co
+[url "ssh://git@git.ninjavan.co:7999/"]
+  insteadOf = https://bitbucket.ninjavan.co/scm/
