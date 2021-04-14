@@ -6,6 +6,7 @@ tap 'homebrew/bundle'
 # Apps
 cask 'brave-browser'
 cask 'gitkraken'
+cask 'grammarly'
 cask 'gpg-suite'
 cask 'hyper'
 cask 'lastpass'

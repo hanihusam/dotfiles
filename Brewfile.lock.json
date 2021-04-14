@@ -2,7 +2,7 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "56a65ee2c8e9da7ae002fbd711843149b84a963b"
+        "revision": "151f09bd3511c92986f929ba64da72704dd97fa2"
       },
       "homebrew/bundle": {
         "revision": "0df097ca87d3bcf762d0f8cbe30eed8c37c35786"
@@ -64,6 +64,12 @@
         "version": "89.1.22.71,122.71",
         "options": {
           "full_name": "brave-browser"
+        }
+      },
+      "grammarly": {
+        "version": "latest",
+        "options": {
+          "full_name": "grammarly"
         }
       }
     }
