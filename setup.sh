@@ -10,6 +10,9 @@ if [[ ! -d "$HOME/.oh-my-zsh" ]] ; then
   # Remove .zshrc file to replace it with our custom zshrc
   rm $HOME/.zshrc
 
+  # Install zsh-z
+  git clone https://github.com/agkozak/zsh-z $ZSH_CUSTOM/plugins/zsh-z
+
   # Install zsh-autosuggestions
   git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
