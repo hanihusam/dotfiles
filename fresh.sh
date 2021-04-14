@@ -28,6 +28,11 @@ echo "Installing Homebrew bundle defined in Brewfile"
 brew tap homebrew/bundle
 brew bundle
 
+# Install volta separately
+if test ! $(which volta); then
+  curl https://get.volta.sh | bash
+fi
+
 echo "Checking whether SSH key for me@zainf.dev is already generated or not"
 if ! grep -q me@zainf.dev ~/.ssh/id_ed25519.pub; then 
   echo "Generating a new SSH key for GitHub"
