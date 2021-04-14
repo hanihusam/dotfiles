@@ -14,6 +14,13 @@ sudo -v
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 ###############################################################################
+# General UI/UX                                                               #
+###############################################################################
+
+# Disable auto-correct
+defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
+
+###############################################################################
 # Visual Studio Code                                                          #
 ###############################################################################
 
