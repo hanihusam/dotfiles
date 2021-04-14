@@ -2,7 +2,7 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "e150fc45a14e9733aa492b3e2f20e403f9b8a64e"
+        "revision": "1e2447b9af024ee5a940125f4bc4657bc8ffa380"
       },
       "homebrew/bundle": {
         "revision": "0df097ca87d3bcf762d0f8cbe30eed8c37c35786"
@@ -41,6 +41,12 @@
         "options": {
           "full_name": "lastpass"
         }
+      },
+      "gitkraken": {
+        "version": "7.5.5",
+        "options": {
+          "full_name": "gitkraken"
+        }
       }
     }
   },
@@ -49,7 +55,7 @@
       "big_sur": {
         "HOMEBREW_VERSION": "3.1.1",
         "HOMEBREW_PREFIX": "/opt/homebrew",
-        "Homebrew/homebrew-core": "5723b3eb23ab6a68df4e421ddc53036c88cf8676",
+        "Homebrew/homebrew-core": "b2d072dc1ff32d5c723d83d59145192e8f04fb0b",
         "CLT": "12.4.0.0.1.1610135815",
         "Xcode": "12.0",
         "macOS": "11.2.3"

@@ -4,6 +4,7 @@ tap 'homebrew/cask-fonts'
 tap 'homebrew/bundle'
 
 # Apps
+cask 'gitkraken'
 cask 'gpg-suite'
 cask 'hyper'
 cask 'lastpass'
