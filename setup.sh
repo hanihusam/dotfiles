@@ -15,25 +15,25 @@ if [[ ! -d "$HOME/.oh-my-zsh" ]] ; then
   rm $HOME/.zshrc
 
   echo ""
-  echo "=== Installing zsh-z plugin"
+  echo "=== Installing zsh-z plugin ==="
   echo ""
   # Install zsh-z
   git clone https://github.com/agkozak/zsh-z ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/zsh-z
 
   echo ""
-  echo "=== Installing zsh-autosuggestions plugin"
+  echo "=== Installing zsh-autosuggestions plugin ==="
   echo ""
   # Install zsh-autosuggestions
   git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
   echo ""
-  echo "=== Installing zsh-syntax-highlighting plugin"
+  echo "=== Installing zsh-syntax-highlighting plugin ==="
   echo ""
   # Install zsh-syntax-highlighting
   git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
   echo ""
-  echo "=== Installing Powerlevel10k theme"
+  echo "=== Installing Powerlevel10k theme ==="
   echo ""
   # Install Powerlevel10k theme
   git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
