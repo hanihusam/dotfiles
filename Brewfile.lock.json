@@ -2,7 +2,7 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "1e2447b9af024ee5a940125f4bc4657bc8ffa380"
+        "revision": "56a65ee2c8e9da7ae002fbd711843149b84a963b"
       },
       "homebrew/bundle": {
         "revision": "0df097ca87d3bcf762d0f8cbe30eed8c37c35786"
@@ -47,6 +47,18 @@
         "options": {
           "full_name": "gitkraken"
         }
+      },
+      "telegram": {
+        "version": "7.6,214328",
+        "options": {
+          "full_name": "telegram"
+        }
+      },
+      "whatsapp": {
+        "version": "2.2112.10",
+        "options": {
+          "full_name": "whatsapp"
+        }
       }
     }
   },
@@ -55,7 +67,7 @@
       "big_sur": {
         "HOMEBREW_VERSION": "3.1.1",
         "HOMEBREW_PREFIX": "/opt/homebrew",
-        "Homebrew/homebrew-core": "b2d072dc1ff32d5c723d83d59145192e8f04fb0b",
+        "Homebrew/homebrew-core": "1b869b5a22665b824230ca35dc98ecc7b7178228",
         "CLT": "12.4.0.0.1.1610135815",
         "Xcode": "12.0",
         "macOS": "11.2.3"

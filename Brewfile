@@ -8,7 +8,9 @@ cask 'gitkraken'
 cask 'gpg-suite'
 cask 'hyper'
 cask 'lastpass'
+cask 'telegram'
 cask 'visual-studio-code'
+cask 'whatsapp'
 
 # Fonts
 cask 'font-fira-code'
