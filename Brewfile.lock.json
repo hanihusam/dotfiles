@@ -59,6 +59,12 @@
         "options": {
           "full_name": "whatsapp"
         }
+      },
+      "brave-browser": {
+        "version": "89.1.22.71,122.71",
+        "options": {
+          "full_name": "brave-browser"
+        }
       }
     }
   },
@@ -67,7 +73,7 @@
       "big_sur": {
         "HOMEBREW_VERSION": "3.1.1",
         "HOMEBREW_PREFIX": "/opt/homebrew",
-        "Homebrew/homebrew-core": "1b869b5a22665b824230ca35dc98ecc7b7178228",
+        "Homebrew/homebrew-core": "fc1f44553b5251991f892d53189fc9ab030166d3",
         "CLT": "12.4.0.0.1.1610135815",
         "Xcode": "12.0",
         "macOS": "11.2.3"
