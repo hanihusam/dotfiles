@@ -6,6 +6,10 @@ My dotfiles setup is heavily inspired by [Dries Vints'](https://github.com/dries
 
 I use [dotbot](https://github.com/anishathalye/dotbot/) as a [Git Submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules) to easily install the necessary dotfiles through symlink.
 
+## Preview
+
+![zsh benchmark preview](https://user-images.githubusercontent.com/6315466/114795510-48c43800-9dc1-11eb-9174-8f16ae29e381.gif)
+
 ## How to use
 
 1. Clone this repository
