@@ -46,16 +46,16 @@ defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
 # 1048576 is ⌘ I think
 # Top left screen corner → Show application windows
 defaults write com.apple.dock wvous-tl-corner -int 3
-defaults write com.apple.dock wvous-tl-modifier -int 0
+defaults write com.apple.dock wvous-tl-modifier -int 1048576
 # Top right screen corner → Mission Control
 defaults write com.apple.dock wvous-tr-corner -int 2
-defaults write com.apple.dock wvous-tr-modifier -int 0
+defaults write com.apple.dock wvous-tr-modifier -int 1048576
 # Bottom left screen corner → Launchpad
 defaults write com.apple.dock wvous-bl-corner -int 11
-defaults write com.apple.dock wvous-bl-modifier -int 0
+defaults write com.apple.dock wvous-bl-modifier -int 1048576
 # Bottom right screen corner → Dosktop
 defaults write com.apple.dock wvous-br-corner -int 4
-defaults write com.apple.dock wvous-br-modifier -int 0
+defaults write com.apple.dock wvous-br-modifier -int 1048576
 
 ###############################################################################
 # Safari & WebKit                                                             #
