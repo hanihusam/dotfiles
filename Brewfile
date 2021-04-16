@@ -5,6 +5,7 @@ tap 'homebrew/bundle'
 
 # Apps
 cask 'brave-browser'
+cask 'box-sync'
 cask 'daisydisk'
 cask 'discord'
 cask 'gitkraken'
