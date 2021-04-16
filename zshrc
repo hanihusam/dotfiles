@@ -11,6 +11,9 @@ export PATH=/opt/homebrew/bin:$PATH
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
+# Hide partial line indicator (%) a.k.a. prompt end-of-line mark
+PROMPT_EOL_MARK=''
+
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
