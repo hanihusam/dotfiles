@@ -38,6 +38,7 @@ cask 'whatsapp'
 cask 'zoom'
 
 # Quicklook
+cask 'quicklook-csv'
 cask 'quicklook-json'
 
 # Fonts
