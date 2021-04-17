@@ -43,6 +43,13 @@ mackup backup
 mackup restore
 ```
 
+## Maintaining this dotfiles
+
+1. When installing a new app, tool or font, try to install it with Homebrew and add it to the `Brewfile`
+2. When configuring a new app make sure to run `mackup backup` to save the preferences
+3. When changing a macOS setting, try setting it through the `macos` file
+4. Always save documents through a cloud storage like iCloud, Dropbox, or something else
+
 ## References
 
 - [SSH generation](https://github.com/kentcdodds/dotfiles/blob/main/.macos)
