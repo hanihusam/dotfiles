@@ -12,7 +12,6 @@
     ~/.gitconfig-zainfathoni: git/gitconfig-zainfathoni
     ~/.gitignore-global: git/gitignore-global
     ~/.hushlogin:
-    ~/.hyper.js:
     ~/.mackup.cfg:
     ~/.p10k.zsh:
     ~/.secrets.zsh:
