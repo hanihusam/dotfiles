@@ -32,6 +32,7 @@ cask 'slack'
 cask 'spotify'
 cask 'telegram'
 cask 'visual-studio-code'
+cask 'wickrme'
 cask 'whatsapp'
 
 # Fonts
