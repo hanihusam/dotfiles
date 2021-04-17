@@ -7,6 +7,9 @@ tap 'homebrew/bundle'
 brew 'git' # https://apple.stackexchange.com/a/272220/352112
 brew 'mas' # Mac App Store manager
 
+# Development
+brew 'mysql'
+
 # Apps
 cask 'brave-browser'
 cask 'box-sync'
