@@ -8,7 +8,7 @@ I use [dotbot](https://github.com/anishathalye/dotbot/) as a [Git Submodule](htt
 
 ## Preview
 
-![benchmark zsh](https://user-images.githubusercontent.com/6315466/115122050-72ab7380-9fe8-11eb-9bde-d74e01bdee53.gif)
+![zsh-benchmark](https://user-images.githubusercontent.com/6315466/115127560-ff1a5e00-a009-11eb-9d88-5fa11121505c.gif)
 
 ## How to use
 
