@@ -5,6 +5,7 @@ tap 'homebrew/bundle'
 
 # Binaries
 brew 'git' # https://apple.stackexchange.com/a/272220/352112
+brew 'mas' # Mac App Store manager
 
 # Apps
 cask 'brave-browser'
@@ -31,3 +32,6 @@ cask 'whatsapp'
 
 # Fonts
 cask 'font-fira-code'
+
+# Mac App Store
+mas 'Microsoft Excel', id: 462058435
