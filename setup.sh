@@ -61,6 +61,11 @@ echo ""
 
 # Add Homebrew & oh-my-zsh PATH by installing .zshrc file through dotbot
 ./install
+if [ ! -f "$HOME/.secrets.zsh" ]; then
+  echo ""
+  echo "⚠️ Run ./bin/restore-secrets.zsh script to restore the secrets.zsh file from Box Sync"
+  echo ""
+fi
 
 # Update Homebrew recipes
 echo ""

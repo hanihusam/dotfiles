@@ -15,4 +15,6 @@
     ~/.hyper.js:
     ~/.p10k.zsh:
     ~/.secrets.zsh:
+      if: '[ -f "secrets.zsh" ]'
+      path: "secrets.zsh"
     ~/.zshrc:
