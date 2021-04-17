@@ -3,6 +3,9 @@ tap 'homebrew/cask'
 tap 'homebrew/cask-fonts'
 tap 'homebrew/bundle'
 
+# Binaries
+brew 'git' # https://apple.stackexchange.com/a/272220/352112
+
 # Apps
 cask 'brave-browser'
 cask 'box-sync'
