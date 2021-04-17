@@ -34,6 +34,7 @@ cask 'telegram'
 cask 'visual-studio-code'
 cask 'wickrme'
 cask 'whatsapp'
+cask 'zoom'
 
 # Fonts
 cask 'font-fira-code'
