@@ -11,6 +11,7 @@ brew 'mas' # Mac App Store manager
 cask 'brave-browser'
 cask 'box-sync'
 cask 'daisydisk'
+cask 'dbeaver-community'
 cask 'discord'
 cask 'gitkraken'
 cask 'gpg-suite'
