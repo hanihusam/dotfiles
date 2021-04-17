@@ -131,6 +131,10 @@ feid() { node $HOME/Code/GitHub/frontend-id/s.feid.dev/node_modules/.bin/netlify
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# Ninja Van Kubernetes context switching
+alias kube-prod='source ~/.nv/kube/production.zsh'
+alias kube-dev='source ~/.nv/kube/development.zsh'
+
 # Volta installation https://volta.sh
 export VOLTA_HOME="$HOME/.volta"
 export PATH="$VOLTA_HOME/bin:$PATH"
