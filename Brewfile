@@ -36,6 +36,9 @@ cask 'wickrme'
 cask 'whatsapp'
 cask 'zoom'
 
+# Quicklook
+cask 'quicklook-json'
+
 # Fonts
 cask 'font-fira-code'
 
