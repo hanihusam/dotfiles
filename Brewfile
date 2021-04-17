@@ -2,14 +2,16 @@
 tap 'homebrew/cask'
 tap 'homebrew/cask-fonts'
 tap 'homebrew/bundle'
+tap 'lokalise/cli-2'
 
 # Binaries
 brew 'git' # https://apple.stackexchange.com/a/272220/352112
-brew 'go'
 brew 'mackup'
 brew 'mas' # Mac App Store manager
 
 # Development
+brew 'go'
+brew 'lokalise2'
 brew 'mysql'
 
 # Apps
