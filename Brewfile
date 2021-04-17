@@ -5,6 +5,7 @@ tap 'homebrew/bundle'
 
 # Binaries
 brew 'git' # https://apple.stackexchange.com/a/272220/352112
+brew 'go'
 brew 'mackup'
 brew 'mas' # Mac App Store manager
 
@@ -17,6 +18,7 @@ cask 'box-sync'
 cask 'daisydisk'
 cask 'dbeaver-community'
 cask 'discord'
+cask 'docker'
 cask 'gitkraken'
 cask 'gpg-suite'
 cask 'grammarly'

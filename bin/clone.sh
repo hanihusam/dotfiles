@@ -38,3 +38,17 @@ if [[ ! -d "$GITHUB/frontend-id/s.feid.dev" ]] ; then
   cd $GITHUB/frontend-id/s.feid.dev
   yarn
 fi
+
+echo ""
+echo "=== Ninja Van projects ==="
+echo ""
+
+NINJA=$HOME/Code/ninjavan
+FRONTEND=$NINJA/frontend
+NINJAGO=$GOPATH/src/git.ninjavan.co
+
+if [[ ! -d "$NINJAGO/ship/dash" ]] ; then
+  git clone ssh://git@git.ninjavan.co:7999/ship/dash.git $NINJAGO/ship/dash
+  cd $NINJAGO/ship/dash
+  git config core.hooksPath .githooks
+fi

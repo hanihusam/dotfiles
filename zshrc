@@ -96,6 +96,9 @@ if [ -f "$HOME/.secrets.zsh" ]; then
   source $HOME/.secrets.zsh
 fi
 
+# Golang
+export GOPATH=$HOME/Code/go
+
 # URL Shorteners
 # https://github.com/kentcdodds/netlify-shortener#bash
 zainf() { node $HOME/Code/GitHub/zainfathoni/shortener/node_modules/.bin/netlify-shortener "$1" "$2"; }
