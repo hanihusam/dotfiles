@@ -5,6 +5,7 @@ tap 'homebrew/bundle'
 
 # Binaries
 brew 'git' # https://apple.stackexchange.com/a/272220/352112
+brew 'mackup'
 brew 'mas' # Mac App Store manager
 
 # Development
