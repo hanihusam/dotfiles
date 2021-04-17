@@ -13,6 +13,7 @@
     ~/.gitignore-global: git/gitignore-global
     ~/.hushlogin:
     ~/.hyper.js:
+    ~/.mackup.cfg:
     ~/.p10k.zsh:
     ~/.secrets.zsh:
       if: '[ -f "secrets.zsh" ]'
