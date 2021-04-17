@@ -31,7 +31,20 @@ I use [dotbot](https://github.com/anishathalye/dotbot/) as a [Git Submodule](htt
    ⚠️ Install the recommended fonts for Powerlevel10k theme from assets/fonts folder
    ```
 
+### Backup Applications Preferences using mackup
+
+```shell
+mackup backup
+```
+
+### Restore Applications Preferences using mackup
+
+```shell
+mackup restore
+```
+
 ## References
 
 - [SSH generation](https://github.com/kentcdodds/dotfiles/blob/main/.macos)
 - [zsh benchmark](https://github.com/ri7nz/.dotifiles/blob/master/scripts/bin/benchmark-zsh)
+- [mackup usage](https://github.com/lra/mackup#usage)
