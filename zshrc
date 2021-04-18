@@ -35,7 +35,13 @@ zinit light-mode for \
 zinit ice depth=1; zinit light romkatv/powerlevel10k
 
 # Load Git
+# https://zdharma.github.io/zinit/wiki/INTRODUCTION/#oh_my_zsh_prezto
 zinit snippet OMZ::plugins/git/git.plugin.zsh
+
+# Load zsh-autosuggestions
+# https://zdharma.github.io/zinit/wiki/INTRODUCTION/#oh_my_zsh_prezto
+zinit ice wait lucid atload'_zsh_autosuggest_start'
+zinit light zsh-users/zsh-autosuggestions
 
 ### End of manually-added custom plugins
 
