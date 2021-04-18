@@ -55,6 +55,11 @@ zt 0a light-mode for \
     atload'_zsh_autosuggest_start' \
         zsh-users/zsh-autosuggestions
 
+# Load fast-syntax-highlighting
+zt 0b light-mode for \
+    atinit'zicompinit; zicdreplay' atload'FAST_HIGHLIGHT[chroma-man]=' \
+        zdharma/fast-syntax-highlighting
+
 ### End of manually-added custom plugins
 
 # User configuration
