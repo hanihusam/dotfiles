@@ -38,11 +38,19 @@ zt() { zinit depth'3' lucid ${1/#[0-9][a-c]/wait"$1"} "${@:2}"; }
 
 ### Manually-added custom plugins
 
+##################
+# Initial Prompt #
+##################
+
 # Load Powerlevel10k
 # https://github.com/romkatv/powerlevel10k#zinit
 zt light-mode for \
     atload'!source "$HOME/.p10k.zsh"' \
         romkatv/powerlevel10k
+
+###########
+# Annexes #
+###########
 
 # Load Git plugin from OMZ
 # https://zdharma.github.io/zinit/wiki/Example-Oh-My-Zsh-setup/#using_turbo_mode_and_for-syntax
@@ -52,11 +60,19 @@ zt for \
         OMZP::git \
         agkozak/zsh-z
 
+##################
+# Wait'0a' block #
+##################
+
 # Load zsh-autosuggestions
 zt 0a light-mode for \
     compile'{src/*.zsh,src/strategies/*}' pick'zsh-autosuggestions.zsh' \
     atload'_zsh_autosuggest_start' \
         zsh-users/zsh-autosuggestions
+
+##################
+# Wait'0b' block #
+##################
 
 # Load fast-syntax-highlighting
 zt 0b light-mode for \
