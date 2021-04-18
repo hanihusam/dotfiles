@@ -50,8 +50,10 @@ zinit snippet OMZ::plugins/git/git.plugin.zsh
 
 # Load zsh-autosuggestions
 # https://zdharma.github.io/zinit/wiki/INTRODUCTION/#oh_my_zsh_prezto
-zinit ice wait lucid atload'_zsh_autosuggest_start'
-zinit light zsh-users/zsh-autosuggestions
+zt 0a light-mode for \
+    compile'{src/*.zsh,src/strategies/*}' pick'zsh-autosuggestions.zsh' \
+    atload'_zsh_autosuggest_start' \
+        zsh-users/zsh-autosuggestions
 
 ### End of manually-added custom plugins
 
