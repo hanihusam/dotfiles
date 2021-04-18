@@ -6,6 +6,7 @@
 - clean: ['~']
 
 - link:
+    ~/Brewfile: Brewfile
     ~/scripts: scripts
     ~/.gitconfig: .gitconfig
     ~/.gitconfig-ninjavan: .gitconfig-ninjavan
