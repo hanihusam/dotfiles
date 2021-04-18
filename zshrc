@@ -34,6 +34,9 @@ zinit light-mode for \
 # https://github.com/romkatv/powerlevel10k#zinit
 zinit ice depth=1; zinit light romkatv/powerlevel10k
 
+# Load Git
+zinit snippet OMZ::plugins/git/git.plugin.zsh
+
 ### End of manually-added custom plugins
 
 # User configuration
