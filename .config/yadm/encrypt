@@ -1,2 +1,3 @@
 .secrets.zsh
 .ssh/id_ed25519
+scripts/bin/kube
