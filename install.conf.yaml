@@ -6,7 +6,7 @@
 - clean: ['~']
 
 - link:
-    ~/.benchmark.zsh: bin/benchmark.zsh
+    ~/scripts: scripts
     ~/.gitconfig: .gitconfig
     ~/.gitconfig-ninjavan: .gitconfig-ninjavan
     ~/.gitconfig-zainfathoni: .gitconfig-zainfathoni
