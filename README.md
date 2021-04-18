@@ -4,7 +4,10 @@ If you are not familiar with what dotfiles are, you can read [this article](http
 
 My dotfiles setup is heavily inspired by [Dries Vints'](https://github.com/driesvints) [Getting Started with Dotfiles](https://driesvints.com/blog/getting-started-with-dotfiles/).
 
-I use [dotbot](https://github.com/anishathalye/dotbot/) as a [Git Submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules) to easily install the necessary dotfiles through symlink.
+## Dependencies
+
+- [yadm](https://yadm.io) to manage the installation of these dotfiles into my local machine.
+- [Zinit](https://zdharma.github.io/zinit/wiki/) to manage the Zsh plugins.
 
 ## Preview
 
