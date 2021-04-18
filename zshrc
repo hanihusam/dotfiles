@@ -44,12 +44,12 @@ zt light-mode for \
     atload'!source "$HOME/.p10k.zsh"' \
         romkatv/powerlevel10k
 
-# Load Git
-# https://zdharma.github.io/zinit/wiki/INTRODUCTION/#oh_my_zsh_prezto
-zinit snippet OMZ::plugins/git/git.plugin.zsh
+# Load Git plugin from OMZ
+# https://zdharma.github.io/zinit/wiki/Example-Oh-My-Zsh-setup/#using_turbo_mode_and_for-syntax
+zt for \
+        OMZP::git
 
 # Load zsh-autosuggestions
-# https://zdharma.github.io/zinit/wiki/INTRODUCTION/#oh_my_zsh_prezto
 zt 0a light-mode for \
     compile'{src/*.zsh,src/strategies/*}' pick'zsh-autosuggestions.zsh' \
     atload'_zsh_autosuggest_start' \
