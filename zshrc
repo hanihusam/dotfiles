@@ -91,49 +91,7 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-# Export secret environment variables
-if [ -f "$HOME/.secrets.zsh" ]; then
-  source $HOME/.secrets.zsh
-fi
-
-# Golang
-export GOPATH=$HOME/Code/go
-
-# URL Shorteners
-# https://github.com/kentcdodds/netlify-shortener#bash
-zainf() { node $HOME/Code/GitHub/zainfathoni/shortener/node_modules/.bin/netlify-shortener "$1" "$2"; }
-rbagi() { node $HOME/Code/GitHub/zainfathoni/rbagi.id/node_modules/.bin/netlify-shortener "$1" "$2"; }
-imas() { node $HOME/Code/GitHub/zainfathoni/s.imas.sg/node_modules/.bin/netlify-shortener "$1" "$2"; }
-kcovid() { node $HOME/Code/GitLab/kawalcovid19/website/kcov.id/node_modules/.bin/netlify-shortener "$1" "$2"; }
-feid() { node $HOME/Code/GitHub/frontend-id/s.feid.dev/node_modules/.bin/netlify-shortener "$1" "$2"; }
-
-# export MANPATH="/usr/local/man:$MANPATH"
-
-# You may need to manually set your language environment
-# export LANG=en_US.UTF-8
-
-# Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='mvim'
-# fi
-
-# Compilation flags
-# export ARCHFLAGS="-arch x86_64"
-
-# Set personal aliases, overriding those provided by oh-my-zsh libs,
-# plugins, and themes. Aliases can be placed here, though oh-my-zsh
-# users are encouraged to define aliases within the ZSH_CUSTOM folder.
-# For a full list of active aliases, run `alias`.
-#
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-
-# Ninja Van Kubernetes context switching
-alias kube-prod='source ~/.nv/kube/production.zsh'
-alias kube-dev='source ~/.nv/kube/development.zsh'
+source ~/.personal.zsh
 
 # Volta installation https://volta.sh
 export VOLTA_HOME="$HOME/.volta"
