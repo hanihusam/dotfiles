@@ -46,8 +46,11 @@ zt light-mode for \
 
 # Load Git plugin from OMZ
 # https://zdharma.github.io/zinit/wiki/Example-Oh-My-Zsh-setup/#using_turbo_mode_and_for-syntax
+# Load zsh-z
+# https://github.com/agkozak/zsh-z#for-zinit-formerly-zplugin-users
 zt for \
-        OMZP::git
+        OMZP::git \
+        agkozak/zsh-z
 
 # Load zsh-autosuggestions
 zt 0a light-mode for \
