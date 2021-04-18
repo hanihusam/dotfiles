@@ -7,18 +7,18 @@
 
 - link:
     ~/.benchmark.zsh: bin/benchmark.zsh
-    ~/.gitconfig: git/gitconfig
-    ~/.gitconfig-ninjavan: git/gitconfig-ninjavan
-    ~/.gitconfig-zainfathoni: git/gitconfig-zainfathoni
-    ~/.gitignore-global: git/gitignore-global
-    ~/.hushlogin:
-    ~/.mackup.cfg:
-    ~/.personal.zsh:
-    ~/.p10k.zsh:
+    ~/.gitconfig: .gitconfig
+    ~/.gitconfig-ninjavan: .gitconfig-ninjavan
+    ~/.gitconfig-zainfathoni: .gitconfig-zainfathoni
+    ~/.gitignore-global: .gitignore-global
+    ~/.hushlogin: .hushlogin
+    ~/.mackup.cfg: .mackup.cfg
+    ~/.personal.zsh: .personal.zsh
+    ~/.p10k.zsh: .p10k.zsh
     ~/.secrets.zsh:
-      if: '[ -f "secrets.zsh" ]'
-      path: "secrets.zsh"
+      if: '[ -f ".secrets.zsh" ]'
+      path: ".secrets.zsh"
     ~/.nv/kube:
       if: '[ -d "kube" ]'
       path: "kube"
-    ~/.zshrc:
+    ~/.zshrc: .zshrc
