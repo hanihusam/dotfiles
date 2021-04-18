@@ -3,15 +3,6 @@
 echo "Setting up your Mac..."
 
 echo ""
-echo "=== Installing Zinit ==="
-echo ""
-
-if ! command -v zinit &> /dev/null
-then
-    echo "zinit could not be found"
-fi
-
-echo ""
 echo "=== Installing Homebrew ==="
 echo ""
 
@@ -25,8 +16,9 @@ echo "=== Installing dotfiles through dotbot ==="
 echo ""
 
 
-# Add Homebrew & oh-my-zsh PATH by installing .zshrc file through dotbot
+# Add Homebrew PATH by installing .zshrc file through dotbot
 ./install
+
 if [ ! -f "$HOME/.secrets.zsh" ]; then
   echo ""
   echo "⚠️ Run ./bin/restore-secrets.zsh script to restore the secrets.zsh file from Box Sync"
