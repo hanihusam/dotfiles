@@ -33,5 +33,5 @@ kcovid() { node $HOME/Code/GitLab/kawalcovid19/website/kcov.id/node_modules/.bin
 feid() { node $HOME/Code/GitHub/frontend-id/s.feid.dev/node_modules/.bin/netlify-shortener "$1" "$2"; }
 
 # Ninja Van Kubernetes context switching
-alias kube-prod='source ~/.nv/kube/production.zsh'
-alias kube-dev='source ~/.nv/kube/development.zsh'
+alias kube-prod='source ~/scripts/bin/kube/production.zsh'
+alias kube-dev='source ~/scripts/bin/kube/development.zsh'
