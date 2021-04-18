@@ -28,11 +28,21 @@ zinit light-mode for \
 
 ### End of Zinit's installer chunk
 
+### Custom functions to make configuration less verbose
+# Inspired by https://github.com/ri7nz/.dotifiles/blob/f0d705a1bfbe79ead4008303c5f180ea1152334a/.config/zsh/zshrc.zsh#L55-L62
+
+# zt() : First argument is a wait time and suffix, i.e. "0a".
+# Anything that doesn't match will be passed through as if it were an ice mod.
+# The default ices are depth'3' and lucid
+zt() { zinit depth'3' lucid ${1/#[0-9][a-c]/wait"$1"} "${@:2}"; }
+
 ### Manually-added custom plugins
 
 # Load Powerlevel10k
 # https://github.com/romkatv/powerlevel10k#zinit
-zinit ice depth=1; zinit light romkatv/powerlevel10k
+zt light-mode for \
+    atload'!source "$HOME/.p10k.zsh"' \
+        romkatv/powerlevel10k
 
 # Load Git
 # https://zdharma.github.io/zinit/wiki/INTRODUCTION/#oh_my_zsh_prezto
