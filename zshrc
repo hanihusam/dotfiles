@@ -66,6 +66,7 @@ zt for \
 
 # Load zsh-autosuggestions
 zt 0a light-mode for \
+        OMZL::completion.zsh \
     compile'{src/*.zsh,src/strategies/*}' pick'zsh-autosuggestions.zsh' \
     atload'_zsh_autosuggest_start' \
         zsh-users/zsh-autosuggestions
