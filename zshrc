@@ -65,8 +65,11 @@ zt for \
 ##################
 
 # Load zsh-autosuggestions
+# Heavily inspired by https://github.com/ri7nz/.dotifiles/blob/f0d705a1bfbe79ead4008303c5f180ea1152334a/.config/zsh/zshrc.zsh#L110-L121
 zt 0a light-mode for \
         OMZL::completion.zsh \
+    as'completion' mv'*.zsh -> _git' \
+        felipec/git-completion \
     compile'{src/*.zsh,src/strategies/*}' pick'zsh-autosuggestions.zsh' \
     atload'_zsh_autosuggest_start' \
         zsh-users/zsh-autosuggestions
