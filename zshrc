@@ -58,7 +58,8 @@ zt light-mode for \
 # https://github.com/agkozak/zsh-z#for-zinit-formerly-zplugin-users
 zt for \
         OMZP::git \
-        agkozak/zsh-z
+        agkozak/zsh-z \
+        cowboyd/zsh-volta
 
 ##################
 # Wait'0a' block #
