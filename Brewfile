@@ -8,6 +8,7 @@ tap 'lokalise/cli-2'
 brew 'git' # https://apple.stackexchange.com/a/272220/352112
 brew 'mackup'
 brew 'mas' # Mac App Store manager
+brew 'yadm'
 
 # Development
 brew 'go'

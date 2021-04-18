@@ -15,10 +15,6 @@ echo ""
 echo "=== Installing dotfiles through dotbot ==="
 echo ""
 
-
-# Add Homebrew PATH by installing .zshrc file through dotbot
-./install
-
 if [ ! -f "$HOME/.secrets.zsh" ]; then
   echo ""
   echo "⚠️ Run ./bin/restore-secrets.zsh script to restore the secrets.zsh file from Box Sync"
@@ -84,11 +80,11 @@ echo ""
 
 # Set macOS preferences
 # We will run this last because this will reload the shell
-./macos.sh
+~/scripts/bin/macos.sh
 
 echo ""
 echo "=== Performing final benchmark ==="
 echo ""
 
 # Call benchmark.zsh at the end of setup to assess the performance impact of the recent configuration
-./bin/benchmark.zsh
+~/scripts/bin/benchmark.zsh
