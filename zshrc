@@ -52,11 +52,13 @@ zt light-mode for \
 # Annexes #
 ###########
 
-# Load Git plugin from OMZ
+# Load Git library and plugin from OMZ
 # https://zdharma.github.io/zinit/wiki/Example-Oh-My-Zsh-setup/#using_turbo_mode_and_for-syntax
 # Load zsh-z
 # https://github.com/agkozak/zsh-z#for-zinit-formerly-zplugin-users
 zt for \
+        OMZL::git.zsh \
+  atload"unalias grv" \
         OMZP::git \
         agkozak/zsh-z \
         cowboyd/zsh-volta
