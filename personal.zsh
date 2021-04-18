@@ -1,12 +1,28 @@
 #!/bin/sh
 
+##################
+# Platforms      #
+##################
+
+# Add path for Homebrew
+export PATH=/opt/homebrew/bin:$PATH
+
+# Golang
+export GOPATH=$HOME/Code/go
+
+# Hide partial line indicator (%) a.k.a. prompt end-of-line mark
+PROMPT_EOL_MARK=''
+
+##################
+# Custom Scripts #
+##################
+
+
 # Export secret environment variables
 if [ -f "$HOME/.secrets.zsh" ]; then
   source $HOME/.secrets.zsh
 fi
 
-# Golang
-export GOPATH=$HOME/Code/go
 
 # URL Shorteners
 # https://github.com/kentcdodds/netlify-shortener#bash

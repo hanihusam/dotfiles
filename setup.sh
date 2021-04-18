@@ -3,46 +3,12 @@
 echo "Setting up your Mac..."
 
 echo ""
-echo "=== Installing Oh My Zsh ==="
+echo "=== Installing Zinit ==="
 echo ""
 
-# Check for Oh My Zsh and install if we don't have it
-if [[ ! -d "$HOME/.oh-my-zsh" ]] ; then
-  # https://github.com/ohmyzsh/ohmyzsh#unattended-install
-  /bin/sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/HEAD/tools/install.sh)" "" --unattended
-  
-  # Remove .zshrc file to replace it with our custom zshrc
-  rm $HOME/.zshrc
-
-  echo ""
-  echo "=== Installing zsh-z plugin ==="
-  echo ""
-  # Install zsh-z
-  git clone https://github.com/agkozak/zsh-z ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/zsh-z
-
-  echo ""
-  echo "=== Installing zsh-autosuggestions plugin ==="
-  echo ""
-  # Install zsh-autosuggestions
-  git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-
-  echo ""
-  echo "=== Installing zsh-syntax-highlighting plugin ==="
-  echo ""
-  # Install zsh-syntax-highlighting
-  git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-
-  echo ""
-  echo "=== Installing Powerlevel10k theme ==="
-  echo ""
-  # Install Powerlevel10k theme
-  git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
-
-  echo ""
-  echo "⚠️ Install the recommended fonts for Powerlevel10k theme from assets/fonts folder"
-  echo "Then follow the manual installation steps for each terminal to use the fonts"
-  echo "https://github.com/romkatv/powerlevel10k#manual-font-installation"
-  echo ""
+if ! command -v zinit &> /dev/null
+then
+    echo "zinit could not be found"
 fi
 
 echo ""
@@ -79,19 +45,6 @@ echo "=== Installing Homebrew bundle defined in Brewfile ==="
 echo ""
 brew tap homebrew/bundle
 brew bundle
-
-echo ""
-echo "=== Installing Volta ==="
-echo ""
-
-# Install Volta separately
-if test ! $(which volta); then
-  curl https://get.volta.sh | bash
-  
-  # Install the latest version of NodeJS and Yarn using Volta
-  volta install node
-  volta install yarn
-fi
 
 echo ""
 echo "=== Initializing SSH ==="
