@@ -11,16 +11,6 @@ if test ! $(which brew); then
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
 
-echo ""
-echo "=== Installing dotfiles through dotbot ==="
-echo ""
-
-if [ ! -f "$HOME/.secrets.zsh" ]; then
-  echo ""
-  echo "⚠️ Run ./bin/restore-secrets.zsh script to restore the secrets.zsh file from Box Sync"
-  echo ""
-fi
-
 # Update Homebrew recipes
 echo ""
 echo "=== Updating Homebrew recipes ==="
