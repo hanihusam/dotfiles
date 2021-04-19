@@ -15,7 +15,6 @@ My dotfiles setup is heavily inspired by [Dries Vints'](https://github.com/dries
 
 ![zsh benchmark before improvements](https://user-images.githubusercontent.com/6315466/115213496-25d4b380-a134-11eb-81ef-500efcc794b5.gif)
 
-
 ### After improvements
 
 ![zsh benchmark after improvements](https://user-images.githubusercontent.com/6315466/115155860-4c530a00-a0b4-11eb-8756-089ddef6a7c1.gif)
