@@ -5,7 +5,7 @@
 [commit]
 	gpgsign = true
 [gpg]
-  program = gpg
+	program = gpg
 [core]
 	excludesfile = /Users/nvuser/.gitignore-global
 [includeIf "gitdir:~/Code/ninjavan/"]
