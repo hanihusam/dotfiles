@@ -26,6 +26,14 @@ setopt autocd
 # http://zsh.sourceforge.net/Doc/Release/Options.html#Zle
 setopt vi
 
+# Try to correct the spelling of commands
+# http://zsh.sourceforge.net/Doc/Release/Options.html#Input_002fOutput
+setopt dvorak
+
+# Use the Dvorak keyboard for examining spelling mistakes
+# http://zsh.sourceforge.net/Doc/Release/Options.html#Input_002fOutput
+setopt correct
+
 ##################
 # Custom Scripts #
 ##################
