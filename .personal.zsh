@@ -22,6 +22,10 @@ setopt nonomatch
 # http://zsh.sourceforge.net/Doc/Release/Options.html#Changing-Directories
 setopt autocd
 
+# Use VI mode
+# http://zsh.sourceforge.net/Doc/Release/Options.html#Zle
+setopt vi
+
 ##################
 # Custom Scripts #
 ##################
