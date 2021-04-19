@@ -18,6 +18,10 @@ PROMPT_EOL_MARK=''
 # http://zsh.sourceforge.net/Doc/Release/Options.html#Expansion-and-Globbing
 setopt nonomatch
 
+# Automatically change directories without "cd" command
+# http://zsh.sourceforge.net/Doc/Release/Options.html#Changing-Directories
+setopt autocd
+
 ##################
 # Custom Scripts #
 ##################
