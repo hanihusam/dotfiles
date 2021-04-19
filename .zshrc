@@ -86,6 +86,17 @@ zt 0b light-mode for \
     atinit'zicompinit; zicdreplay' atload'FAST_HIGHLIGHT[chroma-man]=' \
         zdharma/fast-syntax-highlighting
 
+##################
+# Wait'0c' block #
+##################
+
+# Load zsh-diff-so-fancy
+# https://github.com/zdharma/zinit/blob/master/README.md#extending-git
+# https://github.com/zdharma/zsh-diff-so-fancy
+zt 0c light-mode as'null' for \
+    sbin"bin/git-dsf;bin/diff-so-fancy" \
+      zdharma/zsh-diff-so-fancy \
+
 ### End of manually-added custom plugins
 
 # User configuration
