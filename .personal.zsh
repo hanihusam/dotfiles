@@ -13,6 +13,11 @@ export GOPATH=$HOME/Code/go
 # Hide partial line indicator (%) a.k.a. prompt end-of-line mark
 PROMPT_EOL_MARK=''
 
+# Fix "zsh: no matches found:" error when running URL Shorteners scripts down below
+# https://unix.stackexchange.com/a/310553/467307
+# http://zsh.sourceforge.net/Doc/Release/Options.html#Expansion-and-Globbing
+setopt nonomatch
+
 ##################
 # Custom Scripts #
 ##################
