@@ -53,3 +53,4 @@ cask 'font-fira-code'
 mas 'Microsoft Excel', id: 462058435
 mas 'Microsoft Word', id: 462054704
 mas 'Microsoft Power Point', id: 462062816
+mas 'Grammarly for Safari', id: 1462114288
