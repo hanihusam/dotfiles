@@ -34,8 +34,39 @@ Here are the things that I resent from my previous setup:
 
    ```shell
    $ brew install yadm
+   ==> Downloading https://github.com/TheLocehiliosan/yadm/archive/3.1.0.tar.gz
+   ==> Downloading from https://codeload.github.com/TheLocehiliosan/yadm/tar.gz/3.1.0
+   ==> make install PREFIX=/usr/local/Cellar/yadm/3.1.0
+   ==> Caveats
+   zsh completions have been installed to:
+     /usr/local/share/zsh/site-functions
+   ==> Summary
+   🍺  /usr/local/Cellar/yadm/3.1.0: 21 files, 194.7KB, built in 6 seconds
+
    $ yadm clone git@github.com:zainfathoni/dotfiles.git
-   $ yadm status
+   Cloning into 'repo.git'...
+   remote: Enumerating objects: 527, done.
+   remote: Counting objects: 100% (527/527), done.
+   remote: Compressing objects: 100% (326/326), done.
+   remote: Total 527 (delta 292), reused 388 (delta 163), pack-reused 0
+   Receiving objects: 100% (527/527), 1.32 MiB | 1.21 MiB/s, done.
+   Resolving deltas: 100% (292/292), done.
+   **NOTE**
+   Local files with content that differs from the ones just
+   cloned were found in /Users/zain. They have been left
+   unmodified.
+
+   Please review and resolve any differences appropriately.
+   If you know what you're doing, and want to overwrite the
+   tracked files, consider 'yadm checkout "/Users/zain"'.
+
+   Found /Users/zain/.config/yadm/bootstrap
+   It appears that a bootstrap program exists.
+   Would you like to execute it now? (y/n)
+   y
+
+   ...
+
    ```
 
 2. Run `yadm bootstrap` if it's not run automatically.
@@ -44,9 +75,40 @@ Here are the things that I resent from my previous setup:
    $ yadm bootstrap
    ```
 
-3. Import your GPG secret & public keys into GPG Suite.
+3. Compare your files that are managed by yadm and update them accordingly.
+
+   ```shell
+   $ yadm status
+   On branch main
+   Your branch is up to date with 'origin/main'.
+
+   Changes not staged for commit:
+   (use "git add <file>..." to update what will be committed)
+   (use "git restore <file>..." to discard changes in working directory)
+      typechange: .hushlogin
+      typechange: .ssh/config
+      typechange: .zshrc
+
+   no changes added to commit (use "git add" and/or "git commit -a")
+
+   $ yadm checkout HEAD -- .hushlogin .ssh/config .zshrc
+
+   $ yadm status
+   On branch main
+   Your branch is up to date with 'origin/main'.
+
+   nothing to commit, working tree clean
+   ```
+
+4. Import your GPG secret & public keys into GPG Suite.
    GPG Suite app should have been installed by the `yadm bootstrap` command above.
    You can import the keys by [copying them from wherever you're storing them and pasting them to the GPG Keychain app](https://gpgtools.tenderapp.com/kb/gpg-keychain-faq/how-to-find-public-keys-of-your-friends-and-import-them).
+
+5. Decrypt encrypted files
+
+   ```shell
+   $ yadm decrypt
+   ```
 
 ### Backup Applications Preferences using mackup
 
