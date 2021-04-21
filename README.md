@@ -30,24 +30,23 @@ Here are the things that I resent from my previous setup:
 
 ## How to use
 
-1. Clone this repository
+1. Install yadm using Homebrew and clone this repository.
 
    ```shell
-   $ git clone git@github.com:zainfathoni/dotfiles.git $HOME/.dotfiles
+   $ brew install yadm
+   $ yadm clone git@github.com:zainfathoni/dotfiles.git
+   $ yadm status
    ```
 
-2. Run `setup.sh`
+2. Run `yadm bootstrap` if it's not run automatically.
 
    ```shell
-   $ cd $HOME/.dotfiles
-   $ ./setup.sh
+   $ yadm bootstrap
    ```
 
-3. Follow the instructions preceded by ⚠️ emoji. e.g.,
-
-   ```shell
-   ⚠️ Install the recommended fonts for Powerlevel10k theme from assets/fonts folder
-   ```
+3. Import your GPG secret & public keys into GPG Suite.
+   GPG Suite app should have been installed by the `yadm bootstrap` command above.
+   You can import the keys by [copying them from wherever you're storing them and pasting them to the GPG Keychain app](https://gpgtools.tenderapp.com/kb/gpg-keychain-faq/how-to-find-public-keys-of-your-friends-and-import-them).
 
 ### Backup Applications Preferences using mackup
 
