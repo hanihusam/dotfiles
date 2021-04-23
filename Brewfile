@@ -14,6 +14,7 @@ brew 'yadm'
 brew 'go'
 brew 'lokalise2'
 brew 'mysql'
+brew 'node'
 
 # Apps
 cask 'brave-browser'
@@ -25,17 +26,13 @@ cask 'gitkraken'
 cask 'gpg-suite'
 cask 'grammarly'
 cask 'iterm2'
-cask 'lark'
 cask 'lastpass'
-cask 'loom'
 cask 'postman'
-cask 'pritunl'
 cask 'rectangle'
 cask 'slack'
 cask 'spotify'
 cask 'telegram'
 cask 'visual-studio-code'
-cask 'wickrme'
 cask 'whatsapp'
 cask 'zoom'
 
@@ -48,3 +45,4 @@ cask 'font-fira-code'
 
 # Mac App Store
 mas 'Grammarly for Safari', id: 1462114288
+mas 'WPS Office: PDF, Docs, Sheet', id: 1468073139
