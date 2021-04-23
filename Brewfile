@@ -19,7 +19,6 @@ brew 'node'
 # Apps
 cask 'brave-browser'
 cask 'daisydisk'
-cask 'dbeaver-community'
 cask 'discord'
 cask 'docker'
 cask 'gitkraken'
