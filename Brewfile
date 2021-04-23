@@ -17,7 +17,6 @@ brew 'mysql'
 
 # Apps
 cask 'brave-browser'
-cask 'box-sync'
 cask 'daisydisk'
 cask 'dbeaver-community'
 cask 'discord'
@@ -26,8 +25,6 @@ cask 'gitkraken'
 cask 'gpg-suite'
 cask 'grammarly'
 cask 'iterm2'
-cask 'jetbrains-toolbox'
-cask 'kindle'
 cask 'lark'
 cask 'lastpass'
 cask 'loom'
@@ -50,7 +47,4 @@ cask 'quicklook-json'
 cask 'font-fira-code'
 
 # Mac App Store
-mas 'Microsoft Excel', id: 462058435
-mas 'Microsoft Word', id: 462054704
-mas 'Microsoft Power Point', id: 462062816
 mas 'Grammarly for Safari', id: 1462114288
