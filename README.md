@@ -1,4 +1,4 @@
-# Zain's personal dotfiles
+# Han's personal dotfiles
 
 If you are not familiar with what dotfiles are, you can read [this article](https://medium.com/@webprolific/getting-started-with-dotfiles-43c3602fd789) about them.
 
