@@ -1,5 +1,0 @@
-[user]
-	email = zain.fathoni@ninjavan.co
-  signingkey = BC76479D13B3970C
-[url "ssh://git@git.ninjavan.co:7999/"]
-  insteadOf = https://bitbucket.ninjavan.co/scm/
