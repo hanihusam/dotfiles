@@ -1,7 +1,7 @@
 [user]
-	name = Zain Fathoni
-	email = me@zainf.dev
-	signingkey = 67DDDCE82417961B
+	name = Hani Husamuddin
+	email = hani.husam@gmail.com
+	signingkey = 4D8D509BBE5C3594
 [commit]
 	gpgsign = true
 [gpg]
