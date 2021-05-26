@@ -8,9 +8,5 @@
 	program = gpg
 [core]
 	excludesfile = /Users/nvuser/.gitignore-global
-[includeIf "gitdir:~/Code/ninjavan/"]
-	path = .gitconfig-ninjavan
-[includeIf "gitdir:~/Code/go/src/git.ninjavan.co/"]
-	path = .gitconfig-ninjavan
-[includeIf "gitdir:~/Code/GitHub/zainfathoni/"]
-	path = .gitconfig-zainfathoni
+[includeIf "gitdir:~/Code/GitHub/hanihusam/"]
+	path = .gitconfig-hanihusam
