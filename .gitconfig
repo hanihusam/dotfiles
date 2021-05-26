@@ -1,7 +1,7 @@
 [user]
 	name = Hani Husamuddin
 	email = hani.husam@gmail.com
-	signingkey = 4D8D509BBE5C3594
+	signingkey = 5966EBA685E0C19B
 [commit]
 	gpgsign = true
 [gpg]
