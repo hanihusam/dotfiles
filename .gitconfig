@@ -7,6 +7,6 @@
 [gpg]
 	program = gpg
 [core]
-	excludesfile = /Users/nvuser/.gitignore-global
+	excludesfile = /Users/hanihusam/.gitignore-global
 [includeIf "gitdir:~/Code/GitHub/hanihusam/"]
 	path = .gitconfig-hanihusam
