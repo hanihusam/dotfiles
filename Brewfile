@@ -21,13 +21,11 @@ cask 'brave-browser'
 cask 'daisydisk'
 cask 'discord'
 cask 'docker'
-cask 'gitkraken'
 cask 'gpg-suite'
 cask 'grammarly'
 cask 'iterm2'
 cask 'lastpass'
 cask 'postman'
-cask 'rectangle'
 cask 'slack'
 cask 'spotify'
 cask 'telegram'
@@ -44,4 +42,7 @@ cask 'font-fira-code'
 
 # Mac App Store
 mas 'Grammarly for Safari', id: 1462114288
+mas 'Session Pomodoro Focus Timer', id: 1521432881
+mas 'WhatsApp', id: 1147396723
 mas 'WPS Office: PDF, Docs, Sheet', id: 1468073139
+mas 'Xcode', id: 497799835 
