@@ -9,8 +9,7 @@
     ~/Brewfile: Brewfile
     ~/scripts: scripts
     ~/.gitconfig: .gitconfig
-    ~/.gitconfig-ninjavan: .gitconfig-ninjavan
-    ~/.gitconfig-zainfathoni: .gitconfig-zainfathoni
+    ~/.gitconfig-hanihusam: .gitconfig-hanihusam
     ~/.gitignore-global: .gitignore-global
     ~/.hushlogin: .hushlogin
     ~/.mackup.cfg: .mackup.cfg
